@@ -4,13 +4,13 @@ variable pm_api_url {
 }
 variable pm_api_token_id {
   type        = string
-  sensctive   = true
+  sensitive   = true
 }
 variable pm_api_token_secret {
   type        = string
-  sensctive   = true
+  sensitive   = true
 }
 variable root_ct_passw {
     type        = string
-  sensctive   = true
+  sensitive   = true
 }
