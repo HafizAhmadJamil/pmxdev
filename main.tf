@@ -8,7 +8,7 @@ resource "proxmox_lxc" "basic" {
   // Terraform will crash without rootfs defined
   rootfs {
     storage = "local-lvm"
-    size    = "8G"
+    size    = "10G"
   }
 
   network {
